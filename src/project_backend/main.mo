@@ -7,7 +7,7 @@ import Nat "mo:base/Nat";
 import Text "mo:base/Text";
 import Time "mo:base/Time";
 
-actor {
+actor project {
 	var articles = HashMap.HashMap<Text, Values>(0, Text.equal, Text.hash);
 
 	type DataRequired = {
